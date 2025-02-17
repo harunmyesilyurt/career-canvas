@@ -81,17 +81,17 @@
       ],
       "contributed": [
         {
-          "title": "Test Monitor",
-          "description": "Etihad için geliştirdiğim, özelleştirilebilir endpoint'leri düzenli olarak kontrol eden ve loglarını tutan bir proje. Proje API ve Client taraflarına ayrılmıştır. API tarafı .NET Core ile PostgreSQL veritabanı kullanılarak, Client tarafı React ve Tailwind ile geliştirilmiştir.",
-          "technologies": ["React", "Tailwind", ".NET Core", "PostgreSQL"],
-          "company": "San TSG",
-          "development_type": "developed"
+          "title": "AGV Web ve Mobil Arayüzleri",
+          "description": "Teknofest yarışmasında kullanılacak takım aracımız için geliştirdiğim, özelleştirilebilir tasarımı anlık olarak gösteren ve rahat kullanılabilirlik sağlayan projedir.",
+          "technologies": ["React", ".NET Core", "PostgreSQL","Unity","Python","C#"],
+          "company": "FEC",
+          "development_type": "contributed"
         },
         {
-          "title": "SanCC",
-          "description": "Schedule taskları tetikleyen bir .NET Core uygulaması. Muhasebe entegrasyonu yapıldı.",
-          "technologies": [".NET Core", "Scheduled Tasks", "Accounting Integration"],
-          "company": "San TSG",
+          "title": "Otonom Araç Sistemleri",
+          "description": "Teknofest yarışması için geliştirilen AGV projesinin her aşamasının uygulamaları. Gerçek araç entegrasyonu yapıldı.",
+          "technologies": ["C++", "Python", "C"],
+          "company": "FEC",
           "development_type": "contributed"
         }
       ]
