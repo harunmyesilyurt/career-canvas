@@ -20,12 +20,12 @@ function Information() {
   const socialLinks = [
     {
       icon: <FaGithub size={24} />,
-      url: "https://github.com/celalkilnc",
+      url: "https://github.com/harunmyesilyurt",
       label: "GitHub"
     },
     {
       icon: <FaLinkedin size={24} />,
-      url: "https://www.linkedin.com/in/celal-kılınç00/",
+      url: "https://www.linkedin.com/in/harunmyesilyurt/",
       label: "LinkedIn"
     }
   ];
@@ -35,7 +35,7 @@ function Information() {
       <InteractiveBackground />
       <div className="info-container">
         <div className="profile-section">
-          <h1>Celal Kılınç</h1>
+          <h1>{t('info.fullName')}</h1>
           <h2>{t('info.description')}</h2>
         </div>
         
