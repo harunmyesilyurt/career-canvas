@@ -1,0 +1,57 @@
+.switchbar {
+  position: absolute;
+  display: flex;
+  gap: 1rem;
+  /* backdrop-filter: blur(10px); */
+  border-radius: 16px;
+  z-index: 1000;
+  width: fit-content;
+
+}
+
+.switchBar {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  backdrop-filter: blur(10px);
+  margin: 0;
+  box-shadow: 0 0 7px rgba(255, 255, 255, 0.15);
+  transition: all 0.3s ease;
+}
+
+.switchBar:hover {
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.3);
+}
+
+/* Mobil görünüm için */
+@media (max-width: 767px) {
+  .switchbar {
+    position: fixed;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    flex-direction: row;
+    padding: 1rem;
+  }
+
+  .switchBar {
+    gap: 1rem;
+  }
+}
+
+/* Tablet ve desktop görünüm için */
+@media (min-width: 768px) {
+  .switchbar {
+    top: 50%;
+    right: 2rem;
+    transform: translateY(-50%);
+    flex-direction: column;
+    background: transparent;
+  }
+
+  .switchBar {
+    flex-direction: column;
+    background: transparent;
+  }
+} 

@@ -1,0 +1,35 @@
+:root {
+  --font-size-base: 16px;
+  --line-height-base: 1.5;
+}
+
+html {
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-base);
+}
+
+h1 {
+  font-size: 1.875rem; /* 30px */
+}
+
+h2 {
+  font-size: 1.5rem; /* 24px */
+}
+
+h3 {
+  font-size: 1.25rem; /* 20px */
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 2.25rem; /* 36px */
+  }
+  
+  h2 {
+    font-size: 1.875rem; /* 30px */
+  }
+  
+  h3 {
+    font-size: 1.5rem; /* 24px */
+  }
+} 

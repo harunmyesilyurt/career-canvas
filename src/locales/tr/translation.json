@@ -1,0 +1,162 @@
+{
+  "sections": {
+    "information": "Bilgi",
+    "experience": "Deneyim",
+    "education": "Eğitim",
+    "projects": "Projeler"
+  },
+  "info": {
+    "title": "Ünvan",
+    "description": "Yazılım Geliştirici",
+    "fullName": "Ad Soyad",
+    "email": "E-posta",
+    "emailValue": "celalkilnc@gmail.com",
+    "location": "Konum",
+    "locationValue": "Antalya, Türkiye",
+    "aboutMe": "Yazılım geliştirme konusunda tutkulu ve sürekli öğrenmeye açık bir geliştiriciyim. Modern web teknolojileri konusunda deneyimli, problem çözme becerileri güçlü...",
+    "education": "Eğitim Durumu",
+    "educationStatus": "Lisans - Devam Ediyor"
+  },
+  "education": {
+    "title": "Eğitim",
+    "achievements": "Başarılar",
+    "university": {
+      "name": "Pamukkale Üniversitesi",
+      "department": "Bilgisayar Programcılığı",
+      "date": "2021 - 2023",
+      "description": "Veri yapıları, algoritma analizi, yazılım mühendisliği ve web teknolojileri üzerine kapsamlı eğitim.",
+      "courses": [
+        "Mezuniyet Projesi: Mesajlaşma Uygulaması"
+      ]
+    },
+    "university2": {
+      "name": "Anadolu Üniversitesi",
+      "department": "Yönetim Bilişim Sistemleri",
+      "date": "2024 - Devam Ediyor",
+      "description": "Veri yapıları, algoritma analizi, yazılım mühendisliği ve web teknolojileri üzerine kapsamlı eğitim.",
+      "courses": [
+        "Mezuniyet Projesi: AI destekli öğrenme platformu"
+      ]
+    }
+  },
+  "experience": {
+    "title": "Deneyimler",
+    "current": "Güncel",
+    "jobs": [
+      {
+        "title": "Backend Developer",
+        "company": "San TSG",
+        "date": "Temmuz 2023 - Devam Ediyor",
+        "description": ".Net Core ve C# kullanarak web uygulamaları geliştirme.",
+        "technologies": ["C#", "MSSQL", ".NET Core MVC", ".NET Core Web API", "AWS"]
+      },
+      {
+        "title": "Stajyer",
+        "company": "San TSG",
+        "date": "Şubat 2023 - Haziran 2023",
+        "description": "Web uygulamaları geliştirme, kullanıcı arayüzü tasarımı ve implementasyonu, veritabanı yönetimi konularında pratik deneyim",
+        "technologies": ["React", "JavaScript", "HTML", "CSS", ".NET Core Web API", "PostgreSQL"]
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projeler",
+    "myProjects": "Bireysel",
+    "contributedProjects": "Kurumsal",
+    "viewProject": "Demo",
+    "development_types": {
+      "developed": "Geliştirdim",
+      "developing": "Geliştiriliyor",
+      "contributed": "Katkıda Bulundum",
+      "team": "Takım Projesi"
+    },
+    "items": {
+      "personal": [
+        {
+          "title": "Finance Assistant",
+          "description": "Kişisel finans yönetimi için geliştirilmiş bir .NET Core uygulaması. Kullanıcıların gelir ve giderlerini takip etmelerine yardımcı olur.",
+          "technologies": [".NET Core", "Entity Framework", "SQL Server"],
+          "development_type": "developing"
+        },
+        {
+          "title": "Chopin, Instrument Store",
+          "description": "Chopin, API ve client taraflarından oluşan, sürekli geliştirilmekte olan bir müzik aleti satış e-ticaret sitesidir. API .NET Core ile, client tarafı React ile oluşturulmuştur.",
+          "technologies": ["React", ".NET Core", "MSSQL"],
+          "company": null,
+          "development_type": "developed"
+        },
+        {
+          "title": "Chat App",
+          "description": "Arkadaşlarla sohbet etmek için Windows Form'da geliştirdiğim, iletişim için RabbitMQ kullanan bir mesajlaşma uygulaması.",
+          "technologies": ["Windows Form", "RabbitMQ", "C#"],
+          "company": null,
+          "development_type": "developed"
+        }
+      ],
+      "contributed": [
+        {
+          "title": "Test Monitor",
+          "description": "Etihad için geliştirdiğim, özelleştirilebilir endpoint'leri düzenli olarak kontrol eden ve loglarını tutan bir proje. Proje API ve Client taraflarına ayrılmıştır. API tarafı .NET Core ile PostgreSQL veritabanı kullanılarak, Client tarafı React ve Tailwind ile geliştirilmiştir.",
+          "technologies": ["React", "Tailwind", ".NET Core", "PostgreSQL"],
+          "company": "San TSG",
+          "development_type": "developed"
+        },
+        {
+          "title": "Doc.Client",
+          "description": "Bağlı servislerin API endpoint'lerinin JSON istekleriyle test edilebildiği Postman benzeri bir site geliştirdim. Uygulama React ile geliştirildi ve tasarım için Bootstrap kullanıldı.",
+          "technologies": ["React", "Bootstrap"],
+          "company": "San TSG",
+          "development_type": "developed"
+        },
+        {
+          "title": "Reservation API",
+          "description": "Otel arama ve rezervasyon için .NET Core kullanılarak geliştirilmiş bir API uygulaması.",
+          "technologies": [".NET Core"],
+          "company": "San TSG",
+          "development_type": "developed"
+        },
+        {
+          "title": "TourVisio API",
+          "description": "API projesinde hata düzeltme ve özellik geliştirme çalışmalarına katkıda bulundum. Ödeme sistemi üzerinde çalıştım, ödeme ile ilgili hataları çözdüm ve banka sistemleri ile entegrasyon sağladım.",
+          "technologies": ["C#", ".NET Core Web API", "MSSQL", "Payment Integration", "Banking APIs"],
+          "company": "San TSG",
+          "development_type": "contributed"
+        },
+        {
+          "title": "B2B",
+          "description": ".NET Core MVC kullanılarak oluşturulmuş bir API projesi ile entegre edilmiş bir istemci.",
+          "technologies": ["C#", ".NET Core MVC", "MSSQL", "TypeScript", "Bootstrap"],
+          "company": "San TSG",
+          "development_type": "contributed"
+        },
+        {
+          "title": "Media",
+          "description": "Medya dosyalarının yönetimi için geliştirilmiş bir .NET Core uygulaması.",
+          "technologies": [".NET Core"],
+          "company": "San TSG",
+          "development_type": "contributed"
+        },
+        {
+          "title": "Womom",
+          "description": "Annelik eğitimi için yazılmış bir ön yüz uygulaması. Progressive Web App (PWA) olarak React ile geliştirildi.",
+          "technologies": ["React", "PWA", "JavaScript"],
+          "company": "San TSG",
+          "development_type": "developed"
+        },
+        {
+          "title": "SanCC",
+          "description": "Schedule taskları tetikleyen bir .NET Core uygulaması. Muhasebe entegrasyonu yapıldı.",
+          "technologies": [".NET Core", "Scheduled Tasks", "Accounting Integration"],
+          "company": "San TSG",
+          "development_type": "contributed"
+        }
+      ]
+    }
+  },
+  "common": {
+    "technologies": "Kullanılan Teknolojiler",
+    "viewMore": "Daha Fazla",
+    "date": "Tarih",
+    "present": "Günümüz"
+  }
+} 

@@ -1,0 +1,161 @@
+{
+  "sections": {
+    "information": "Information",
+    "experience": "Experience",
+    "education": "Education",
+    "projects": "Projects"
+  },
+  "info": {
+    "title": "Title",
+    "description": "Software Developer",
+    "email": "Email",
+    "emailValue": "celalkilnc@gmail.com",
+    "location": "Location",
+    "locationValue": "Antalya, Turkey",
+    "aboutMe": "I am a passionate developer who is open to continuous learning in software development. Experienced in modern web technologies with strong problem-solving skills...",
+    "education": "Education",
+    "educationStatus": "Bachelor's - Ongoing"
+  },
+  "experience": {
+    "title": "Experience",
+    "current": "Current",
+    "jobs": [
+      {
+        "title": "Backend Developer",
+        "company": "San TSG",
+        "date": "July 2023 - Present",
+        "description": "Developing web applications using .Net Core and C#.",
+        "technologies": ["C#", "MSSQL", ".NET Core MVC", ".NET Core Web API", "AWS"]
+      },
+      {
+        "title": "Intern",
+        "company": "San TSG",
+        "date": "February 2023 - June 2023",
+        "description": "Gained practical experience in web application development, user interface design and implementation, database management",
+        "technologies": ["React", "JavaScript", "HTML", "CSS", ".NET Core Web API", "PostgreSQL"]
+      }
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "achievements": "Achievements",
+    "university": {
+      "name": "Pamukkale University",
+      "department": "Computer Programming",
+      "date": "2021 - 2023",
+      "description": "Comprehensive education in data structures, algorithm analysis, software engineering, and web technologies.",
+      "courses": [
+        "Graduation Project: Messaging Application"
+      ]
+    },
+    "university2": {
+      "name": "Anadolu University",
+      "department": "Management Information Systems",
+      "date": "2024 - Present",
+      "description": "Comprehensive education in data structures, algorithm analysis, software engineering, and web technologies.",
+      "courses": [
+        "Graduation Project: AI-powered learning platform"
+      ]
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "myProjects": "Personal",
+    "contributedProjects": "Corporate",
+    "viewProject": "Demo",
+    "development_types": {
+      "developed": "Developed",
+      "developing": "Developing",
+      "contributed": "Contributed",
+      "team": "Team Project"
+    },
+    "items": {
+      "personal": [
+        {
+          "title": "Finance Assistant",
+          "description": "A .NET Core application developed for personal finance management. Helps users track their expenses and income.",
+          "technologies": [".NET Core", "Entity Framework", "SQL Server"],
+          "development_type": "developing"
+        },
+        {
+          "title": "Chopin, Instrument Store",
+          "description": "Chopin consists of an API and a client, and it is continuously being developed. It is an e-commerce site for musical instrument sales. The API is built with .NET Core, and the client side is created with React.",
+          "technologies": ["React", ".NET Core", "MSSQL"],
+          "company": null,
+          "development_type": "developed"
+        },
+        {
+          "title": "Chat App",
+          "description": "I developed a messaging application in Windows Form for chatting with friends, utilizing RabbitMQ for communication.",
+          "technologies": ["Windows Form", "RabbitMQ", "C#"],
+          "company": null,
+          "development_type": "developed"
+        }
+      ],
+      "contributed": [
+        {
+          "title": "Test Monitor",
+          "description": "A project I developed for Etihad, featuring customizable endpoints that regularly send requests and log them. The project is divided into API and Client sides. The API was built using .NET Core with PostgreSQL as the database. The Client side was developed with React and Tailwind was used for styling.",
+          "technologies": ["React", "Tailwind", ".NET Core", "PostgreSQL"],
+          "company": "San TSG",
+          "development_type": "developed"
+        },
+        {
+          "title": "Doc.Client",
+          "description": "Developed a Postman-like site where API endpoints of connected services can be tested with JSON requests. The application was built with React, and Bootstrap was used for the design.",
+          "technologies": ["React", "Bootstrap"],
+          "company": "San TSG",
+          "development_type": "developed"
+        },
+        {
+          "title": "Reservation API",
+          "description": "Developed an API application for hotel search and reservation, built using .NET Core.",
+          "technologies": [".NET Core"],
+          "company": "San TSG",
+          "development_type": "developed"
+        },
+        {
+          "title": "TourVisio API",
+          "description": "I contributed to bug fixing and feature development in the API project. I worked on the payment system, resolving payment-related bugs and integrating with banking systems.",
+          "technologies": ["C#", ".NET Core Web API", "MSSQL", "Payment Integration", "Banking APIs"],
+          "company": "San TSG",
+          "development_type": "contributed"
+        },
+        {
+          "title": "B2B",
+          "description": "A client integrated with an API project built using .NET Core MVC.",
+          "technologies": ["C#", ".NET Core MVC", "MSSQL", "TypeScript", "Bootstrap"],
+          "company": "San TSG",
+          "development_type": "contributed"
+        },
+        {
+          "title": "Media",
+          "description": "A .NET Core application developed for media file management.",
+          "technologies": [".NET Core"],
+          "company": "San TSG",
+          "development_type": "contributed"
+        },
+        {
+          "title": "Womom",
+          "description": "A frontend application developed for maternity education. Built as a Progressive Web App (PWA) using React.",
+          "technologies": ["React", "PWA", "JavaScript"],
+          "company": "San TSG",
+          "development_type": "developed"
+        },
+        {
+          "title": "SanCC",
+          "description": "A .NET Core application that triggers scheduled tasks. Accounting integration was implemented.",
+          "technologies": [".NET Core", "Scheduled Tasks", "Accounting Integration"],
+          "company": "San TSG",
+          "development_type": "contributed"
+        }
+      ]
+    }
+  },
+  "common": {
+    "technologies": "Technologies Used",
+    "viewMore": "View More",
+    "date": "Date",
+    "present": "Present"
+  }
+} 

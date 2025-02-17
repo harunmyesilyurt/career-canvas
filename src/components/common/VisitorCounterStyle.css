@@ -1,0 +1,56 @@
+.visitor-counter {
+  position: fixed;
+  bottom: 2rem;
+  left: 2rem;
+  background: rgba(30, 41, 59, 0.8);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  z-index: 1000;
+  transition: all 0.3s ease;
+}
+
+.visitor-counter:hover {
+  transform: translateY(-2px);
+  background: rgba(30, 41, 59, 0.9);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.visitor-icon {
+  font-size: 1.2rem;
+}
+
+.visitor-count {
+  color: #87CEEB;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.visitor-text {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .visitor-counter {
+    bottom: 1rem;
+    left: 1rem;
+    padding: 0.4rem 0.8rem;
+  }
+  
+  .visitor-icon {
+    font-size: 1rem;
+  }
+  
+  .visitor-count {
+    font-size: 1rem;
+  }
+  
+  .visitor-text {
+    font-size: 0.8rem;
+  }
+} 

@@ -1,0 +1,49 @@
+.section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  padding: 4rem 2rem;
+  position: relative;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  background: linear-gradient(to right, #fff, rgba(255,255,255,0.7));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.section-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* Responsive ayarlar */
+@media (max-width: 768px) {
+  .section {
+    padding: 2rem 1rem;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+}
+
+/* Animasyonlar */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 0.5s ease forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+} 

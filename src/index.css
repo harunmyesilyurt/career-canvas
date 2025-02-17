@@ -3,6 +3,7 @@
   line-height: 1.5;
   font-weight: 400;
 
+
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
@@ -12,57 +13,131 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
+ 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+#root {
+  width: 100%;
+  box-sizing: border-box;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+.container {
+  width: 100%;
+  padding: 0 1rem;
+  box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
+/* src/index.css veya src/App.css */
+
+/* Genel scrollbar stilleri */
+::-webkit-scrollbar {
+  width: 10px;
+  background: rgba(10, 22, 38, 0.2);
+}
+
+/* Scroll çubuğu arka plan rengi */
+::-webkit-scrollbar-track {
+  background: rgba(10, 22, 38, 0.8);
+  border-radius: 10px;
+}
+
+/* Scroll çubuğu rengi */
+::-webkit-scrollbar-thumb {
+  background: rgba(135, 206, 235, 0.3);
+  border-radius: 10px;
+  border: 2px solid rgba(10, 22, 38, 0.8);
+  transition: all 0.3s ease;
+}
+
+/* Zamanla kaybolduğunda scroll çubuğu stil */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(135, 206, 235, 0.5);
+}
+
+/* Scroll çubuğu üzerine gelindiğinde kalınlaşma */
+::-webkit-scrollbar-thumb:active {
+  background: #333;
+}
+
+/* Scroll çubuğu kenarlığı */
+::-webkit-scrollbar-thumb:vertical {
+  border: 2px solid #fff;
+}
+
+/* Dikey scrollbar stilleri */
+::-webkit-scrollbar-track:vertical {
+  border: 1px solid #ccc;
+}
+
+/* Yatay scrollbar stilleri */
+::-webkit-scrollbar-track:horizontal {
+  border: 1px solid #ccc;
+}
+
+/* Yatay scrollbar çubuğu kenarlığı */
+::-webkit-scrollbar-thumb:horizontal {
+  border: 2px solid #fff;
+}
+
+/* Responsive tasarım için temel ayarlar */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(135, 206, 235, 0.3) rgba(10, 22, 38, 0.8);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Mobil öncelikli yaklaşım için container */
+.container {
+  width: 100%;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Breakpoint'ler */
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
   }
-  a:hover {
-    color: #747bff;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
   }
-  button {
-    background-color: #f9f9f9;
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+/* Mobil için daha ince scrollbar */
+@media (max-width: 768px) {
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    border-width: 1px;
   }
 }
