@@ -10,7 +10,7 @@ function Education() {
       school: t('education.university.name'),
       degree: t('education.university.department'),
       period: t('education.university.date'),
-      gpa: "3.08",
+      // gpa: "3.08",
       description: t('education.university.description'),
       achievements: t('education.university.courses', { returnObjects: true })
     },
