@@ -3,7 +3,8 @@
     "information": "Bilgi",
     "experience": "Deneyim",
     "education": "Eğitim",
-    "projects": "Projeler"
+    "projects": "Projeler",
+    "skills": "Yetenekler"
   },
   "info": {
     "title": "Ünvan",
@@ -102,5 +103,26 @@
     "viewMore": "Daha Fazla",
     "date": "Tarih",
     "present": "Günümüz"
+  },
+  "skills": {
+    "title": "Yetenekler",
+    "categories": {
+      "languages": "Programlama Dilleri",
+      "frameworks": "Frameworks & Libraries",
+      "databases": "Veritabanları",
+      "tools": "Araçlar & Platformlar"
+    },
+    "items": {
+      "languages": ["JavaScript", "Python", "C#", "C++", "Java"],
+      "frameworks": ["React", "Node.js", ".NET Core", "Express.js", "Bootstrap"],
+      "databases": ["MongoDB", "PostgreSQL", "MySQL", "SQL Server"],
+      "tools": ["Git", "Docker", "VS Code", "Postman", "Linux"]
+    },
+    "proficiency": {
+      "expert": "Uzman",
+      "advanced": "İleri",
+      "intermediate": "Orta",
+      "beginner": "Başlangıç"
+    }
   }
 } 

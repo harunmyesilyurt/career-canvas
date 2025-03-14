@@ -3,7 +3,8 @@
     "information": "Information",
     "experience": "Experience",
     "education": "Education",
-    "projects": "Projects"
+    "projects": "Projects",
+    "skills": "Skills"
   },
   "info": {
     "title": "Title",
@@ -102,5 +103,26 @@
     "viewMore": "View More",
     "date": "Date",
     "present": "Present"
+  },
+  "skills": {
+    "title": "Skills",
+    "categories": {
+      "languages": "Programming Languages",
+      "frameworks": "Frameworks & Libraries",
+      "databases": "Databases",
+      "tools": "Tools & Platforms"
+    },
+    "items": {
+      "languages": ["JavaScript", "Python", "C#", "C++", "Java"],
+      "frameworks": ["React", "Node.js", ".NET Core", "Express.js", "Bootstrap"],
+      "databases": ["MongoDB", "PostgreSQL", "MySQL", "SQL Server"],
+      "tools": ["Git", "Docker", "VS Code", "Postman", "Linux"]
+    },
+    "proficiency": {
+      "expert": "Expert",
+      "advanced": "Advanced",
+      "intermediate": "Intermediate",
+      "beginner": "Beginner"
+    }
   }
 }

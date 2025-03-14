@@ -24,7 +24,7 @@ function Switchbar() {
       rootMargin: '-20% 0px -20% 0px'
     });
 
-    const sections = ['information', 'experiance', 'education', 'projects'];
+    const sections = ['information', 'experiance', 'education', 'skills', 'projects'];
     sections.forEach(sectionId => {
       const element = document.getElementById(sectionId);
       if (element) {
@@ -60,6 +60,7 @@ function Switchbar() {
           { id: 'information', label: t('sections.information') },
           { id: 'experiance', label: t('sections.experience') },
           { id: 'education', label: t('sections.education') },
+          { id: 'skills', label: t('sections.skills') },
           { id: 'projects', label: t('sections.projects') }
         ].map((section) => (
           <li 
